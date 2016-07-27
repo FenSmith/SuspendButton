@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  SuspendButton
+//
+//  Created by tangwei on 16/7/27.
+//  Copyright © 2016年 tangwei. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Header.h"
+
+#endif /* PrefixHeader_pch */
