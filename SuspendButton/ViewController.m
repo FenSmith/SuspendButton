@@ -138,7 +138,7 @@ static NSString * const LRCellId = @"LRAnimationCellId";
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:LRCellId];
     if ( !cell ) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"LRCellId"];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:LRCellId];
         
         UIImageView *image = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, LRRowHeight)];
         [image setTag:1000];
